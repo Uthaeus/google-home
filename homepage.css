@@ -1,0 +1,131 @@
+
+
+.google-mast {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background-color: grey;
+}
+
+.google-mast ul li {
+    display: inline-block;
+}
+
+.mast-left {
+    float: left;
+    width: 25%;  
+}
+
+.mast-right {
+    float: right;
+}
+
+.mast-left a {
+    text-decoration: none;
+    color: green;
+    margin: 15px;
+}
+
+.mast-left a:hover {
+    text-decoration: none;
+    color: purple;
+}
+
+.mast-right a:hover {
+    text-decoration: none;
+    color: purple;
+}
+
+.mast-right a {
+    text-decoration: none;
+    color: green;
+    margin: 15px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.google-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: grey;
+}
+
+.google-footer ul li {
+    display: inline-block;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-left a {
+    text-decoration: none;
+    color: green;
+    margin: 15px;
+}
+
+.footer-left a:hover {
+    text-decoration: none;
+    color: purple;
+}
+
+.footer-right {
+    float: right;
+    display: inline-block;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: green;
+    margin: 15px;
+    align-items: center;
+}
+
+.footer-right a:hover {
+    text-decoration: none;
+    color: purple;
+}
+
+.google-search {
+    text-align: center;
+}
+
+.search-bar {
+    width: 500px;
+    padding-left: 10px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.content {
+    margin-top: 220px;
+    text-align: center;
+}
+
+.google-buttons ul li {
+    
+    display: inline-block;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+    border: 0px solid white;
+    background-color: blue;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+
