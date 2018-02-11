@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='js.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class='container'>
+            <div class='add-seven'>
+                <h2>Enter a number</h2>
+                <h4>And we'll add 7 to it</h4>
+                <form>
+                    <input type='text' id='number'><br />
+                    <input type='button' class='button' onClick="add7()" value='Do It'>
+                </form>
+
+                <p>The result is:
+                    <span id='result'></span>
+                </p>
+            </div>
+
+            <div class='capitalize'>
+                <h2>Enter a string</h2>
+                <h4>And it will be properly capitalized</h4>
+                <form>
+                    <input type='text' id='str'><br />
+                    <input type='button' class='button' onClick="cap()" value="Cap me!">
+                </form>
+
+                <p>Here you go:
+                    <span id='capped'></span>
+                </p>
+            </div>
+
+            <div class='multiply'>
+                <h2>Multiply</h2>
+                <h4>Enter two numbers</h4>
+                <form>
+                    <input type='text' id='num1'><br />
+                    <input type='text' id='num2'><br />
+                    <input type='button' class='button' onClick="multiply()" value='Do It'>
+                </form>
+
+                <p>The result is:
+                    <span id='mult-result'></span>
+                </p>
+            </div>
+        </div>
+
+        <script>
+            function cap() {
+                let str = document.getElementById('str').value;
+                let newStr = str.toLowerCase();
+                let rest = newStr.slice(1);
+                let caps = newStr.charAt(0).toUpperCase();
+                let str1 = caps + rest; 
+                document.getElementById('capped').innerHTML = str1;
+            }
+            function multiply() {
+                let num1 = document.getElementById('num1').value;
+                let num2 = document.getElementById('num2').value;
+                document.getElementById('mult-result').innerHTML = num1 * num2;
+            }
+            function add7() {
+                let number = document.getElementById('number').value;
+                document.getElementById('result').innerHTML = +number + 7;
+            }
+        </script>
+    </body>
+
+</html>

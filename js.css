@@ -1,0 +1,55 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: inline-block;
+}
+
+#number {
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.button {
+    width: 60px;
+    background-color: blue;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-size: .8em;
+    font-weight: 600;
+    padding: 3px;
+}
+
+.button:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#num1 {
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+#num2 {
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.add-seven {
+    margin-left: 15px;
+}
+
+.multiply {
+    margin-right: 15px;
+}
