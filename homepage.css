@@ -4,7 +4,7 @@
     position: absolute;
     width: 100%;
     top: 0;
-    background-color: grey;
+    background-color: rgb(156, 155, 155);
 }
 
 .google-mast ul li {
@@ -22,23 +22,23 @@
 
 .mast-left a {
     text-decoration: none;
-    color: green;
+    color: #1c488e;
     margin: 15px;
 }
 
 .mast-left a:hover {
     text-decoration: none;
-    color: purple;
+    color: #478fc0fd;
 }
 
 .mast-right a:hover {
     text-decoration: none;
-    color: purple;
+    color: #478fc0fd;
 }
 
 .mast-right a {
     text-decoration: none;
-    color: green;
+    color: #1c488e;
     margin: 15px;
 }
 
@@ -50,7 +50,7 @@
     position: absolute;
     width: 100%;
     bottom: 0;
-    background-color: grey;
+    background-color: rgb(156, 155, 155);
 }
 
 .google-footer ul li {
@@ -63,13 +63,13 @@
 
 .footer-left a {
     text-decoration: none;
-    color: green;
+    color: #272d3f;
     margin: 15px;
 }
 
 .footer-left a:hover {
     text-decoration: none;
-    color: purple;
+    color: rgb(49, 120, 226);
 }
 
 .footer-right {
@@ -79,14 +79,14 @@
 
 .footer-right a {
     text-decoration: none;
-    color: green;
+    color: #272d3f;;
     margin: 15px;
     align-items: center;
 }
 
 .footer-right a:hover {
     text-decoration: none;
-    color: purple;
+    color: rgb(49, 120, 226);
 }
 
 .google-search {
@@ -116,7 +116,7 @@
     height: 30px;
     border-radius: 4px;
     border: 0px solid white;
-    background-color: blue;
+    background-color: rgb(33, 70, 150);
     color: white;
     margin-left: 30px;
     margin-right: 30px;
@@ -125,6 +125,7 @@
 
 .btn:hover {
     border: 1px solid grey;
+    background-color: rgb(35, 35, 131);
     cursor: pointer;
 }
 
